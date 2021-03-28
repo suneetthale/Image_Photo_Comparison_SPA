@@ -1,0 +1,26 @@
+.cards {
+  align-items: center;
+  height: 50vh;
+  overflow: scroll;
+}
+
+.title {
+  font-size: 24px;
+  margin: 12px;
+}
+
+.tableData {
+  height: 40vh;
+  overflow: scroll;
+}
+
+.cardColumns {
+  column-count: 5 !important;
+}
+
+
+@media (max-width: 1500px) {
+  .cardColumns {
+    column-count: 4 !important;
+  }
+}
